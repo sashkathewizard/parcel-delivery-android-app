@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "640539274854",
+    "project_id": "cargo-test-542f7",
+    "storage_bucket": "cargo-test-542f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640539274854:android:f6670b40c5c7f4753147a7",
+        "android_client_info": {
+          "package_name": "com.example.cargo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640539274854-pkatsr31vauft4o9hv0227hpf68ojlk5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5gtthH3TxXPKmysQe8bq8f_LTBE2iB3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640539274854-pkatsr31vauft4o9hv0227hpf68ojlk5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

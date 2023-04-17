@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Order"
+        android:textSize="36dp"
+        android:gravity="center"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="100dp"
+        android:text="@string/order_description"
+        android:fontFamily="@font/poppins_regular"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <EditText
+            android:id="@+id/product_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введіть опис посилки"
+            android:background="@drawable/input"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/delivery_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введіть місто та адресу отримувача"
+            android:background="@drawable/input"
+            android:layout_marginBottom="10dp"/>
+        <EditText
+            android:id="@+id/pib_otpr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введіть ПІБ отримувача"
+            android:background="@drawable/input"
+            android:layout_marginBottom="10dp"/>
+        <EditText
+            android:id="@+id/weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введіть вагу посилки"
+            tools:ignore="InvalidId"
+            android:background="@drawable/input"
+            android:layout_marginBottom="10dp"/>
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введіть номер телефону отримувача"
+            tools:ignore="InvalidId"
+            android:background="@drawable/input"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/order_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:background="@drawable/button_login"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:id="@+id/cancel_order_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button_register"
+        android:text="cancel"
+        android:fontFamily="@font/poppins_bold"/>
+
+
+</LinearLayout>

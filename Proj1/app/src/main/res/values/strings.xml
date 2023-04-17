@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cargo</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="order_description">Після створння посилки дані відправляються на обробку адміністраторам, коли вони приймуть посилку, статус буде змінено у меню ваших посилок.</string>
+    <string name="change_data_description">Тут ви можете оновити свої дані. Важливо: Додавайте свої реальні дані, без помилок, щоб ми знали кому відправляти посилку.</string>
+</resources>
